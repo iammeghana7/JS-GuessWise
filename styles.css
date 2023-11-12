@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&family=Zen+Dots&display=swap");
+.body-container {
+  background-color: black;
+}
+h1 {
+  color: white;
+}
+p {
+  font-family: "Montserrat";
+  font-size: 32px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+  margin-top: 100px;
+}
+p {
+  color: white;
+  font-size: 80px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.success {
+  background-color: greenyellow;
+}
+button {
+  padding: 10px;
+  background-color: aquamarine;
+  border: none;
+  font-size: 20px;
+  color: blueviolet;
+  cursor: pointer;
+}
+input {
+  border: 2px solid violet;
+  height: 30px;
+}
+.your-score {
+  color: white;
+  background-color: aquamarine;
+}
+.highest-score {
+  color: white;
+  background-color: aquamarine;
+}
